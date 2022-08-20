@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+.meals{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    height: 150px;
+    width: 32%;
+    background-color: grey;
+    position: relative;
+}
+
+.chicken-meal{
+    padding: 0 20px;
+    background-color: skyblue;
+    position: absolute;
+    right: 0;
+}
+
+.card:hover{
+    background-color: maroon;
+}
+
+.beef-meal{
+    padding: 0 20px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+}
+
+.sushi-meal{
+    padding: 0 20px;
+    background-color: yellow;
+    position: absolute;
+    right: 0;
+}
+
+.description{
+    padding: 10px;
+}
+
+.color{
+    position: absolute;
+    background-color: blue;
+    height: 35px;
+    width: 50px;
+    left: 0;
+    bottom: 0;
+}
+
